@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: var(--gray-900);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0 0;
+    padding: 2rem 1.5rem;
+
+    h1 {
+        color: var(--white);
+        margin: 0 0 1rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    button {
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+
+.link {
+    margin: 1rem 0 0;
+    color: var(--white);
+    cursor: pointer;
+}
